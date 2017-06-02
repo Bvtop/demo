@@ -1,4 +1,4 @@
-.cover1{
+.cover1 {
     position: relative;
     overflow: hidden;
     width: 380px;
@@ -53,5 +53,7 @@
 
 .cover1:hover img {
     opacity: 0.4;
-}    
+}
+
+
 }
