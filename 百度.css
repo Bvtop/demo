@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+#box{
+    width: 100%;
+    height: auto;
+}
+#box-top{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+.search-box{
+    border: 1px solid #b6b6b6;
+    border-color: #7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    height: 32px;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    margin-left: 80px;
+    margin-top:8px;
+}
+.search-box input{
+    width: 526px;
+    height: 22px;
+    font: 16px/22px arial;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.search-button{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid transparent;
+    margin-left: -8px;
+}
+.search{
+    width: 100px;
+    height: 34px;
+    border: 0;
+    color: white;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.search-button :hover{
+    background-color: #317ef3;
+    box-shadow: 1px 1px 1px #ccc;
+}
+#info {
+    position: absolute;
+    top: 35%;
+    right:30px;
+}
+#info a{
+    text-decoration: none;
+    color:#333;
+}
+#route{
+    background-color: #f8f8f8;
+    height: 38px;
+    line-height: 36px;
+    padding-left:100px;
+}
+#route a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+    width: 45px;
+}
+#route .afterClick{
+    font-weight: bold;
+    color:#333;
+}
+#route a:hover{
+    color: #333;
+}
